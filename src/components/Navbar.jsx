@@ -4,7 +4,7 @@ import cv from "../assets/cv.pdf";
 
 const Navbar = () => {
   return (
-    <div className="flex place-self-end mb-24 text-cloud bg-background sticky top-0">
+    <div className="flex place-self-end mb-24 text-cloud bg-background">
       <nav className="-mb-px mr-1 mt-10">
         <a
           className="inline-block px-6"
