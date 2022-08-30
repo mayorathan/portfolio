@@ -11,27 +11,17 @@ module.exports = {
     colors: {
       background: "#1c1e20",
       foreground: "#b8daee",
-      orange: "#f18238",
-      red: "#d12a24",
-      lightGreen: "#9ed264",
-      blue: "#4f96be",
-      lightblue: "#61b8d0",
-      purple: "#695abb",
+      orange: "#ff8948",
+      yellow: "#f3ef6d",
+      red: "#fa7c78",
+      green: "#9ed264",
+      blue: "#61b8d0",
+      purple: "#8c80cf",
       hotPink: "#d53864",
       cloud: "#fefffe",
     },
     fontFamily: {
       sans: ["Open Sans", "sans-serif"],
     },
-    extend: {
-      spacing: {
-        128: "32rem",
-        144: "36rem",
-      },
-      borderRadius: {
-        "4xl": "2rem",
-      },
-    },
   },
-  plugins: [],
 };
