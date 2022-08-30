@@ -1,12 +1,13 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "description": "Utility to sychronize course activities",
+  "description": "Portfolio website",
   "license": "MIT",
   "author": {
     "name": "Mayorathan K.",
-    "url": "https://github.com/mayorathan"
+    "url": "https://www.mayorathan.com"
   },
+  "homepage": "https://www.mayorathan.com",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

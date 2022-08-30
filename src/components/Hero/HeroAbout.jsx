@@ -28,7 +28,7 @@ const About = () => {
     <div className="flex flex-row">
       <span className="flex flex-col w-2/3 pr-20">
         <h1 className="text-5xl text-lightblue">Hi there!</h1>
-        <p className="text-xl tracking-wide text-cloud pt-4">
+        <p className="text-xl tracking-wide text-cloud pt-6">
           Driven by a passion for technology, I began my journey as a trainee in
           a Montreal based start-up. After spending 4 months learning about
           JavaScript and Linux, I left the company and started my bachelors in

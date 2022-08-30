@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <div className="flex flex-col place-self-start pt-10">
       <h1 className="text-5xl text-lightblue">Projects</h1>
-      <span className="">
+      <span>
         <Project
           title={"Doo²"}
           techStack={["React Native", "Redux", "Firebase"]}
