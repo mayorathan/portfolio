@@ -4,8 +4,8 @@ import { CONTACT } from "../content/about";
 
 const Contact = () => {
   return (
-    <div className="flex place-self-end mb-24 text-cloud tracking-wider bg-background">
-      <nav className="-mb-px mr-1 mt-10">
+    <div className="flex mb-24 text-cloud tracking-wider bg-background">
+      <nav className="mt-10">
         {CONTACT.map(provider => (
           <a
             className="inline-block px-6"

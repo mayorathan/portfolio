@@ -3,14 +3,13 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 
 const HeroName = () => (
-  <div className="flex flex-row text-green tracking-wide text-8xl font-thin">
+  <div className="flex flex-row text-green tracking-wide text-8xl font-thin md:text-7xl">
     <p>{">"}&nbsp;</p>
     <Typewriter
       options={{
         strings: "Mayorathan",
         autoStart: true,
         cursor: "_",
-        // delay: 150,
       }}
     />
   </div>
