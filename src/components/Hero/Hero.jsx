@@ -5,7 +5,7 @@ import HeroAbout from "./HeroAbout";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col items-center space-y-10">
+    <div className="flex flex-col items-center space-y-10 md:space-y-20 md:items-start">
       <HeroName />
       <HeroAbout />
     </div>
