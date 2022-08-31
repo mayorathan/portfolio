@@ -8,7 +8,7 @@ const Contact = () => {
       <nav>
         {CONTACT.map(provider => (
           <a
-            className="inline-block px-2 md:px-4 lg:px-6"
+            className="inline-block px-2 md:pl-6 lg:pl-8"
             href={provider.link}
             target="_blank"
             rel="noreferrer">
