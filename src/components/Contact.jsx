@@ -4,7 +4,7 @@ import { CONTACT } from "../content/about";
 
 const Contact = () => {
   return (
-    <div className="flex mt-10 mb-6 text-cloud  bg-background md:mb-14">
+    <div className="flex mt-10 mb-6 text-cloud  bg-background md:mb-14 lg:place-self-end">
       <nav>
         {CONTACT.map(provider => (
           <a
