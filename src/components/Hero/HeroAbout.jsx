@@ -14,8 +14,7 @@ const About = () => {
       <p
         key={skill.name}
         className={
-          textDecor +
-          ` font-sans rounded-lg text-center p-2 border-2 md:text-sm`
+          textDecor + ` text-sm font-sans rounded-lg text-center p-2 border-2`
         }>
         {skill.name.toLocaleUpperCase()}
       </p>
@@ -23,14 +22,14 @@ const About = () => {
   };
 
   return (
-    <div className="flex flex-row">
-      <span className="flex flex-col w-2/3 pr-20">
-        <h1 className="text-5xl text-orange md:text-4xl">{ABOUT.greeting}</h1>
-        <p className="text-xl tracking-wide text-cloud pt-6 md:text-lg">
+    <div className="flex flex-col items-center space-x-2">
+      <span className="flex flex-col items-center ">
+        <p className="text-3xl text-orange">{ABOUT.greeting}</p>
+        <p className="pt-4 text-lg text-center px-4 tracking-wide text-cloud">
           {ABOUT.desc}
         </p>
       </span>
-      <span className="grid pt-4 grid-flow-col auto-cols-max grid-rows-4 gap-4 md:grid-rows-6">
+      <span className="grid pt-4 grid-flow-col auto-cols-max grid-rows-4 gap-4">
         {ABOUT.skills.map(skill => SkillItem(skill))}
       </span>
     </div>

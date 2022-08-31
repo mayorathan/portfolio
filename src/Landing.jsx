@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 
 // max-w-screen-lg
 const Landing = () => (
-  <div className="flex flex-col items-center mx-auto space-y-2 max-w-screen-lg pl-10 pr-10">
+  <div className="flex flex-col items-center space-y-2">
     <Contact />
     <Hero />
     <Projects />

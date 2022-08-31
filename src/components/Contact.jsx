@@ -4,11 +4,11 @@ import { CONTACT } from "../content/about";
 
 const Contact = () => {
   return (
-    <div className="flex mb-24 text-cloud tracking-wider bg-background">
-      <nav className="mt-10">
+    <div className="flex mt-10 mb-6 text-cloud  bg-background">
+      <nav>
         {CONTACT.map(provider => (
           <a
-            className="inline-block px-6"
+            className="inline-block px-2"
             href={provider.link}
             target="_blank"
             rel="noreferrer">
